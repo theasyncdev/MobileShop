@@ -20,7 +20,7 @@ export const metadata = {
     siteName: "Mobile Shop",
     images: [
       {
-        url: "/thumbnail.jpg", 
+        url: "/thumbnail.png", 
         width: 1200,
         height: 630,
         alt: "Mobile Shop Homepage Preview",
@@ -33,7 +33,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Mobile Shop",
     description: "A modern mobile e-commerce platform.",
-    images: ["/thumbnail.jpg"],
+    images: ["/thumbnail.png"],
   },
 };
 
