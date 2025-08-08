@@ -30,8 +30,6 @@ const Navbar = () => {
           Cart
         </Link>
 
-        {isSeller && <button onClick={() => router.push('/seller')} className="text-xs border px-4 py-1.5 rounded-full">Admin Dashboard</button>}
-
       </div>
 
       <ul className="hidden md:flex items-center gap-4 ">
@@ -50,7 +48,6 @@ const Navbar = () => {
       </ul>
 
       <div className="flex items-center md:hidden gap-3">
-        {isSeller && <button onClick={() => router.push('/seller')} className="text-xs border px-4 py-1.5 rounded-full">Admin Dashboard</button>}
        { user ? <><UserButton>
         <UserButton.MenuItems>
           <UserButton.Action label="cart" labelIcon={<CartIcon/>} onClick={() => router.push('/cart')} />
